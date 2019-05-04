@@ -1,0 +1,8 @@
+Animation: Linus (Hero)
+Animation: Generic (Necromancer)
+Animation: Long Hair (Fighter)
+Tileset: FE6 Western Isles village
+Tileset: FE8 plains (ch10 Eirika)
+Gameplay concept: Magical weapons
+Gameplay concept: Shops
+Gameplay concept: Units that must be protected
