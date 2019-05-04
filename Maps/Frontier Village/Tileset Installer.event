@@ -1,0 +1,15 @@
+ALIGN 4
+IslesObjects:
+#incext Png2Dmp "IslesObjects.png" --lz77
+
+ALIGN 4
+IslesTiles:
+#incext compress "Tileset/Isles.mapchip_config"
+
+ALIGN 4
+IslesPalette:
+#incbin "Tileset/SnowPalette.dmp"
+
+EventPointerTable(0x91, IslesObjects)
+EventPointerTable(0x92, IslesPalette)
+EventPointerTable(0x93, IslesTiles)
