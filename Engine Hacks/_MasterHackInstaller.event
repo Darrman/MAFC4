@@ -25,7 +25,7 @@ ORG FreeSpaceBLRange //defined in custom definitions
   #include "ContemporaryTalkSupport.event"
 
   //menu semitransparency
-  #include "Semitransparency_changes.event"
+//  #include "Semitransparency_changes.event"
 
   //Hold L to toggle Anims
   #include "LToggle.event"
@@ -37,7 +37,7 @@ ORG FreeSpaceBLRange //defined in custom definitions
   // #include "RescueMapSprite.event"
 
   //Sleep staff lasts 1 turn (for freeze)
-  #include "Staff Duration.event"
+//  #include "Staff Duration.event"
 
   //Expanded Suspend + Debuffs
   #include "Suspend_Debuffs.event"
@@ -46,8 +46,8 @@ ORG FreeSpaceBLRange //defined in custom definitions
   // #include "MovConGetters/FE8-Getters EA.txt"
 
   //clears the gamble/lunge/mercy when cancelling out of attack menu
-  Unset_Attack_Flag:
-  #incbin "Skill System/Internals/unset attack flag.dmp"
+//  Unset_Attack_Flag:
+//  #incbin "Skill System/Internals/unset attack flag.dmp"
 
   //page 4 helptext
   RText_Page4_ladder:
@@ -80,7 +80,7 @@ POP
   #include "Portrait Shift Table.event"
 
   //HP Bars (and effective weapon warning)
-  #include "HPbars.txt"
+//  #include "HPbars.txt"
 
   //Improved Sound Mixer
   #include "SoundMixer.txt"
@@ -101,10 +101,10 @@ POP
   #include "NegativeStatBoosts.event"
 
   //Dragon Veins
-  #include "DragonVeins.event"
+//  #include "DragonVeins.event"
 
   //Modular Stat Screen
-  #include "ModularStatScreen.event"
+//  #include "ModularStatScreen.event"
 
   // Range display fix (for unusual weapon ranges, like 3-15 range iron ballista)
   #include "RangeFix/RangeDisplayFix.event"
@@ -146,15 +146,15 @@ POP
   #incbin "ASM/NewTrapInitializer.dmp"
 
   //Change Sick Status to Freeze
-  #include "Freeze.event"
+//  #include "Freeze.event"
 
   //Freeze All ASMC
-  ALIGN 4
-  FreezeAllASMC:
-  #incbin "ASM/freezeall.dmp"
+//  ALIGN 4
+//  FreezeAllASMC:
+//  #incbin "ASM/freezeall.dmp"
 
-  ALIGN 4
-  #include "Skill System/Master Skill Installer.event"
+//  ALIGN 4
+//  #include "Skill System/Master Skill Installer.event"
 
   ALIGN 4
   #include "FE8-Battle Stats with Anims Off/FE8-Battle Stats Master EA File.event"
@@ -216,17 +216,17 @@ ALIGN 4
   POP
 
   UM_Seize
-  MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
+//  MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   // UM_Attack
   MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags
   // UM_Attack_B
   MenuCommand(0x67b, 0x6c0, NormalText, $24a28, AttackEffect, $22c31, $22c99)
   //Lunge
-  MenuCommand(UM_Lunge, UM_LungeDesc, NormalText, LungeUsability, LungeEffect, $22c31, $22c99)
+//  MenuCommand(UM_Lunge, UM_LungeDesc, NormalText, LungeUsability, LungeEffect, $22c31, $22c99)
   //mercy
-  MenuCommand(UM_Mercy, UM_MercyDesc, NormalText, MercyUsability, MercyEffect, $22c31, $22c99)
+//  MenuCommand(UM_Mercy, UM_MercyDesc, NormalText, MercyUsability, MercyEffect, $22c31, $22c99)
   //gamble
-  MenuCommand(UM_Gamble, UM_GambleDesc, NormalText, GambleUsability, GambleEffect, $22c31, $22c99)
+//  MenuCommand(UM_Gamble, UM_GambleDesc, NormalText, GambleUsability, GambleEffect, $22c31, $22c99)
   UM_Staff
   UM_Ride
   UM_Exit
@@ -250,11 +250,11 @@ ALIGN 4
   UM_Arena
 
   // Shove & cie
-  MenuCommand(UM_Shove,      UM_ShoveDesc,      NormalText, prShoveCommand_Usability,      prShoveCommand_Effect)
-  MenuCommand(UM_Smite,      UM_SmiteDesc,      NormalText, prSmiteCommand_Usability,      prSmiteCommand_Effect)
-  MenuCommand(UM_Pivot,      UM_PivotDesc,      NormalText, prPivotCommand_Usability,      prPivotCommand_Effect)
-  MenuCommand(UM_Reposition, UM_RepositionDesc, NormalText, prRepositionCommand_Usability, prRepositionCommand_Effect)
-  MenuCommand(UM_Swap,       UM_SwapDesc,       NormalText, prSwapCommand_Usability,       prSwapCommand_Effect)
+//  MenuCommand(UM_Shove,      UM_ShoveDesc,      NormalText, prShoveCommand_Usability,      prShoveCommand_Effect)
+//  MenuCommand(UM_Smite,      UM_SmiteDesc,      NormalText, prSmiteCommand_Usability,      prSmiteCommand_Effect)
+//  MenuCommand(UM_Pivot,      UM_PivotDesc,      NormalText, prPivotCommand_Usability,      prPivotCommand_Effect)
+//  MenuCommand(UM_Reposition, UM_RepositionDesc, NormalText, prRepositionCommand_Usability, prRepositionCommand_Effect)
+//  MenuCommand(UM_Swap,       UM_SwapDesc,       NormalText, prSwapCommand_Usability,       prSwapCommand_Effect)
 
   UM_Rescue
   UM_Give
@@ -269,7 +269,7 @@ ALIGN 4
   UM_Supply
 
   //Rally
-  MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyUsability, RallyEffect)
+//  MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyUsability, RallyEffect)
 
   // #ifdef __DEBUG__
   MenuCommand(UMText_Win, UMDesc_Win, GreenText, Win_Usability, Win_Effect)
