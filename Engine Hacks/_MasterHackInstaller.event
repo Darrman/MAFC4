@@ -50,9 +50,9 @@ ORG FreeSpaceBLRange //defined in custom definitions
 //  #incbin "Skill System/Internals/unset attack flag.dmp"
 
   //page 4 helptext
-  RText_Page4_ladder:
-  #incbin "MSS/rtext_page4.dmp"
-  POIN RText_Page4
+//  RText_Page4_ladder:
+//  #incbin "MSS/rtext_page4.dmp"
+//  POIN RText_Page4
 
 #undef inBLRange
 POP
@@ -217,10 +217,10 @@ ALIGN 4
 
   UM_Seize
 //  MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
-  // UM_Attack
-  MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags
-  // UM_Attack_B
-  MenuCommand(0x67b, 0x6c0, NormalText, $24a28, AttackEffect, $22c31, $22c99)
+  UM_Attack
+//  MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags
+  UM_Attack_B
+//  MenuCommand(0x67b, 0x6c0, NormalText, $24a28, AttackEffect, $22c31, $22c99)
   //Lunge
 //  MenuCommand(UM_Lunge, UM_LungeDesc, NormalText, LungeUsability, LungeEffect, $22c31, $22c99)
   //mercy

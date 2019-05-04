@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pMovModifiers: // Movement
-	POIN prAddUnitBaseMov prAddUnitMovBonus prRallyMov prSkillCelerity prNullifyIfGuardAI prNullifyIfFreeze
+	POIN prAddUnitBaseMov prAddUnitMovBonus prRallyMov prNullifyIfGuardAI prNullifyIfFreeze
 WORD 0
 
 prAddUnitBaseMov: // byte 0x12 in ROM class data is base class movement
@@ -12,10 +12,6 @@ prAddUnitBaseMov: // byte 0x12 in ROM class data is base class movement
 
 prAddUnitMovBonus:
 	rAdd(rSByteAt(UNIT_MOV_BONUS))
-
-prSkillCelerity:
-	rIfUnitHasSkill(CelerityID)
-		rAddConst(2)
 
 prNullifyIfGuardAI:
 	rIfUnitHasGuardAI
