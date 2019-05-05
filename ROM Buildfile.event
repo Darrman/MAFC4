@@ -81,6 +81,7 @@
 
     //Maps
     #include "Maps/Master Map Installer.event"
+    #include "Maps/Frontier Village/Tileset Installer.event"
 
     //Palettes
     #include "Blitz Palettes/Palette Setup.event"   
