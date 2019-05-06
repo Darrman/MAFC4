@@ -6,3 +6,14 @@ Tileset: FE8 plains (ch10 Eirika)
 Gameplay concept: Magical weapons
 Gameplay concept: Shops
 Gameplay concept: Units that must be protected
+
+chapter is a door maze
+open doors up by buying door keys from shop
+opening doors will cause unrelated tiles to change, making things confusing
+enemies are fairly weak and can be swatted aside easily for money
+big boss has high defence and magic seal, take a magic sword to him in response
+creeping low move siege tome guy spawns in as reinforcement giving a countdown
+
+plot: reed bros are on the western isles trying to bail nino out or something
+but nergal is doing an evil thing and they're in a big maze
+so they have to beat up nergal

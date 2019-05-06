@@ -18,6 +18,10 @@ LABEL 0x1
 NoFade
 ENDA
 
+{
+#include "MAFC4.event
+}
+
 PlayerPhaseASMC:
 #incbin "PlayerPhaseASMC.dmp"
 
