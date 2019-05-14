@@ -15,70 +15,10 @@
    <property name="TileConfig" value="0x93"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJylVMERAjEIzOV7by3FPnxZiUk1ahlnKz7Sgh1kRpi5TJAhBPSxExhyhF3g1hDCypCXb/8NfoTzHOU492f5RvG0+4XFN4jf4LwsHU8lJ3+vGuppedE+xG7TNyks/IoS5xwt+aoS5xwt+fLOBc87+I8BX6q9pgkiOfgmpeYyqV/jq2k367/EWQPeO0Vff3+5Z+XL77VZRlxj35vZTkrfS7M/0uQoaEL3ygI6H5n1pNmjWnn/vLprtUo5q1Czh7f2j6G8isDbO1eo5evPuWr4AIZcTdM=
+   eJylVMENwzAIdPj6nY7SPfrKJLWnaTtGukofXqEbWKqtBpUgjHHzOGEEOXOA451zniFOe/9dfCj2AnKc+z2+VjxsfmLxtcRvxS7TD0+Fk9+XDfUgbz3P8D1fYX8nhUVfUuJco4UvK3Gu0cIXNy3V3ov/cLJW2nvfyEGEAb1BqTl16tf0ar3rzV/SrKHmnWFsvv/kWfXyvJnscN1nfDe9Nyl9L+1+qycnoSfIZZ0Z3Y/IZoLnVq18fqN912qVOLNQ84hu7R9DdSVB9+he1V6+Du4V4gOxqE4/
   </data>
  </layer>
- <layer id="24" name="Chest 15,1" width="20" height="20" visible="0">
-  <properties>
-   <property name="Height" value="1"/>
-   <property name="ID" value="20"/>
-   <property name="Width" value="1"/>
-   <property name="X" value="15"/>
-   <property name="Y" value="1"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBg8oGygHTAKRsEoGAWjgGgAAKdWAHc=
-  </data>
- </layer>
- <layer id="25" name="Chest 8,7" width="20" height="20" visible="0">
-  <properties>
-   <property name="Height" value="1"/>
-   <property name="ID" value="21"/>
-   <property name="Width" value="1"/>
-   <property name="X" value="8"/>
-   <property name="Y" value="7"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B6oGygHTAKRsEooBsAANbvAHc=
-  </data>
- </layer>
- <layer id="26" name="Chest 8,19" width="20" height="20" visible="0">
-  <properties>
-   <property name="Height" value="1"/>
-   <property name="ID" value="22"/>
-   <property name="Width" value="1"/>
-   <property name="X" value="8"/>
-   <property name="Y" value="19"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BgQNlAO2AUjIJRQBEAAMKnAHc=
-  </data>
- </layer>
- <layer id="27" name="Chest 15,14" width="20" height="20" visible="0">
-  <properties>
-   <property name="Height" value="1"/>
-   <property name="ID" value="23"/>
-   <property name="Width" value="1"/>
-   <property name="X" value="15"/>
-   <property name="Y" value="14"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILBB8oG2gGjgCAAAMfYAHc=
-  </data>
- </layer>
- <layer id="28" name="Chest 0,17" width="20" height="20" visible="0">
-  <properties>
-   <property name="Height" value="1"/>
-   <property name="ID" value="24"/>
-   <property name="Width" value="1"/>
-   <property name="X" value="0"/>
-   <property name="Y" value="17"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApIBwAGQAAB
-  </data>
- </layer>
- <layer id="2" name="Door 17,1" width="20" height="20" visible="0">
+ <layer id="2" name="Door 17_1" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="1"/>
@@ -90,7 +30,7 @@
    eJxjYBh8gHuQmzcKRsEoGAWjgIEBAH+YABc=
   </data>
  </layer>
- <layer id="3" name="Door 2,2" width="20" height="20" visible="0">
+ <layer id="3" name="Door 2_2" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="2"/>
@@ -102,7 +42,7 @@
    eJxjYBgagHugHTAKRsEoGAWjAAUAAEPIAAw=
   </data>
  </layer>
- <layer id="4" name="Door 7,4" width="20" height="20" visible="0">
+ <layer id="4" name="Door 7_4" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="3"/>
@@ -114,7 +54,7 @@
    eJxjYBgFtALcg9y8UTAKRsEooAQAAG5oABc=
   </data>
  </layer>
- <layer id="5" name="Door 14,4" width="20" height="20" visible="0">
+ <layer id="5" name="Door 14_4" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="4"/>
@@ -126,7 +66,7 @@
    eJxjYBgFAwG4B7l5o2AUjIJRQAgAAGwAABc=
   </data>
  </layer>
- <layer id="6" name="Door 10,6" width="20" height="20" visible="0">
+ <layer id="6" name="Door 10_6" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="5"/>
@@ -138,7 +78,7 @@
    eJxjYBgFo4CBgRuKR8EoGAWjgFgAAGLkABc=
   </data>
  </layer>
- <layer id="7" name="Door 17,6" width="20" height="20" visible="0">
+ <layer id="7" name="Door 17_6" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="6"/>
@@ -150,7 +90,7 @@
    eJxjYBgFowA/4B5oB4yCUTAKBiUAADN0AAw=
   </data>
  </layer>
- <layer id="8" name="Door 14,7" width="20" height="20" visible="0">
+ <layer id="8" name="Door 14_7" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="7"/>
@@ -162,7 +102,7 @@
    eJxjYBgFo4D2gHuQmzcKRsEoIB0AAFdgABc=
   </data>
  </layer>
- <layer id="9" name="Door 6,8" width="20" height="20" visible="0">
+ <layer id="9" name="Door 6_8" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="8"/>
@@ -174,7 +114,7 @@
    eJxjYBgFo2DwAe5Bbt4oGAWjgIEBAFNAABc=
   </data>
  </layer>
- <layer id="10" name="Door 18,9" width="20" height="20" visible="0">
+ <layer id="10" name="Door 18_9" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="9"/>
@@ -186,7 +126,7 @@
    eJxjYBgFo2AUoAPugXbAKBgFQwAAACj4AAw=
   </data>
  </layer>
- <layer id="11" name="Door 8,10" width="20" height="20" visible="0">
+ <layer id="11" name="Door 8_10" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="10"/>
@@ -198,7 +138,7 @@
    eJxjYBgFo2AUkAu4B9oBo2AUDCAAACdAAAw=
   </data>
  </layer>
- <layer id="12" name="Door 14,10" width="20" height="20" visible="0">
+ <layer id="12" name="Door 14_10" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="11"/>
@@ -210,7 +150,7 @@
    eJxjYBgFo2AUUBtwD3LzRsEooAYAAELAABc=
   </data>
  </layer>
- <layer id="13" name="Door 4,11" width="20" height="20" visible="0">
+ <layer id="13" name="Door 4_11" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="12"/>
@@ -222,7 +162,7 @@
    eJxjYBgFo2AUDBTgHuTmjYJRgA8AAD9QABc=
   </data>
  </layer>
- <layer id="14" name="Door 17,13" width="20" height="20" visible="0">
+ <layer id="14" name="Door 17_13" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="13"/>
@@ -234,7 +174,7 @@
    eJxjYBgFo2AUjALqAe6BdsAooBsAABtkAAw=
   </data>
  </layer>
- <layer id="15" name="Door 19,14" width="20" height="20" visible="0">
+ <layer id="15" name="Door 19_14" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="14"/>
@@ -246,7 +186,7 @@
    eJxjYBgFo2AUjILBD7gH2gGjAAMAABecAAw=
   </data>
  </layer>
- <layer id="16" name="Door 2,15" width="20" height="20" visible="0">
+ <layer id="16" name="Door 2_15" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="15"/>
@@ -258,7 +198,7 @@
    eJxjYBgFo2AUjIKhBbgH2gGjAAwAFxgADA==
   </data>
  </layer>
- <layer id="17" name="Door 10,15" width="20" height="20" visible="0">
+ <layer id="17" name="Door 10_15" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="16"/>
@@ -270,7 +210,7 @@
    eJxjYBgFo2AUjILhBbgH2gEjBAAAFbgADA==
   </data>
  </layer>
- <layer id="18" name="Door 18,15" width="20" height="20" visible="0">
+ <layer id="18" name="Door 18_15" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="17"/>
@@ -282,7 +222,7 @@
    eJxjYBgFo2AUjIKRBbgHuXlDBQAAHwAAFw==
   </data>
  </layer>
- <layer id="19" name="Door 4,18" width="20" height="20" visible="0">
+ <layer id="19" name="Door 4_18" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="18"/>
@@ -294,7 +234,7 @@
    eJxjYBgFo2AUjIJRMBRAOCN1zeOmUD8AOn8AZA==
   </data>
  </layer>
- <layer id="20" name="Door 14,18" width="20" height="20" visible="0">
+ <layer id="20" name="Door 14_18" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="19"/>
@@ -306,7 +246,67 @@
    eJxjYBgFo2AUjIJRMJwAN53MAwALwAAX
   </data>
  </layer>
- <layer id="21" name="Wall Broken 11,12" width="20" height="20" visible="0">
+ <layer id="24" name="Chest 15_1" width="20" height="20" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="20"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="15"/>
+   <property name="Y" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8oGygHTAKRsEoGAWjgGgAAKdWAHc=
+  </data>
+ </layer>
+ <layer id="25" name="Chest 8_7" width="20" height="20" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="21"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="8"/>
+   <property name="Y" value="7"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B6oGygHTAKRsEooBsAANbvAHc=
+  </data>
+ </layer>
+ <layer id="26" name="Chest 8_19" width="20" height="20" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="22"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="8"/>
+   <property name="Y" value="19"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BgQNlAO2AUjIJRQBEAAMKnAHc=
+  </data>
+ </layer>
+ <layer id="27" name="Chest 15_14" width="20" height="20">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="23"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="15"/>
+   <property name="Y" value="14"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBB8oG2gGjgCAAAMfYAHc=
+  </data>
+ </layer>
+ <layer id="28" name="Chest 0_17" width="20" height="20">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="24"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="0"/>
+   <property name="Y" value="17"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQA1QNtAOoDMAAHTgAHc=
+  </data>
+ </layer>
+ <layer id="21" name="Wall Broken 11_12" width="20" height="20">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="25"/>
@@ -318,7 +318,7 @@
    eJxjYBgFo2AUjATAPdAOGAXDDgAAH9wADA==
   </data>
  </layer>
- <layer id="22" name="Wall Moves 8,3" width="20" height="20">
+ <layer id="22" name="Wall Moves 8_3" width="20" height="20">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="26"/>
@@ -330,7 +330,7 @@
    eJxjYBgFyCCckbrmcVPXOKqbp01l80bBKBgFIwcAAO1tAJo=
   </data>
  </layer>
- <layer id="23" name="Wall Broken 11,3" width="20" height="20" visible="0">
+ <layer id="23" name="Wall Broken 11_3" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="27"/>
@@ -339,7 +339,7 @@
    <property name="Y" value="3"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+   eJxjYBgFuAD3QDtgFIyCUTAKBjEAAD7MAAw=
   </data>
  </layer>
 </map>

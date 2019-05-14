@@ -8,140 +8,140 @@ Map:
 #incbin "MAFC_data.dmp"
 
 MapChanges:
-TileMap(20,15,1,1,1,Chest_15,1)
-TileMap(21,8,7,1,1,Chest_8,7)
-TileMap(22,8,19,1,1,Chest_8,19)
-TileMap(23,15,14,1,1,Chest_15,14)
-TileMap(24,0,17,1,1,Chest_0,17)
-TileMap(1,17,1,1,2,Door_17,1)
-TileMap(2,2,2,1,1,Door_2,2)
-TileMap(3,7,4,1,2,Door_7,4)
-TileMap(4,14,4,1,2,Door_14,4)
-TileMap(5,10,6,2,1,Door_10,6)
-TileMap(6,17,6,1,1,Door_17,6)
-TileMap(7,14,7,1,2,Door_14,7)
-TileMap(8,6,8,1,2,Door_6,8)
-TileMap(9,18,9,1,1,Door_18,9)
-TileMap(10,8,10,1,1,Door_8,10)
-TileMap(11,14,10,1,2,Door_14,10)
-TileMap(12,4,11,1,2,Door_4,11)
-TileMap(13,17,13,1,1,Door_17,13)
-TileMap(14,19,14,1,1,Door_19,14)
-TileMap(15,2,15,1,1,Door_2,15)
-TileMap(16,10,15,1,1,Door_10,15)
-TileMap(17,18,15,1,2,Door_18,15)
-TileMap(18,4,18,1,2,Door_4,18)
-TileMap(19,14,18,1,2,Door_14,18)
-TileMap(25,11,12,1,1,Wall_Broken_11,12)
-TileMap(26,8,3,1,4,Wall_Moves_8,3)
-TileMap(27,11,3,1,1,Wall_Broken_11,3)
+TileMap(1,17,1,1,2,Door_17_1)
+TileMap(2,2,2,1,1,Door_2_2)
+TileMap(3,7,4,1,2,Door_7_4)
+TileMap(4,14,4,1,2,Door_14_4)
+TileMap(5,10,6,2,1,Door_10_6)
+TileMap(6,17,6,1,1,Door_17_6)
+TileMap(7,14,7,1,2,Door_14_7)
+TileMap(8,6,8,1,2,Door_6_8)
+TileMap(9,18,9,1,1,Door_18_9)
+TileMap(10,8,10,1,1,Door_8_10)
+TileMap(11,14,10,1,2,Door_14_10)
+TileMap(12,4,11,1,2,Door_4_11)
+TileMap(13,17,13,1,1,Door_17_13)
+TileMap(14,19,14,1,1,Door_19_14)
+TileMap(15,2,15,1,1,Door_2_15)
+TileMap(16,10,15,1,1,Door_10_15)
+TileMap(17,18,15,1,2,Door_18_15)
+TileMap(18,4,18,1,2,Door_4_18)
+TileMap(19,14,18,1,2,Door_14_18)
+TileMap(20,15,1,1,1,Chest_15_1)
+TileMap(21,8,7,1,1,Chest_8_7)
+TileMap(22,8,19,1,1,Chest_8_19)
+TileMap(23,15,14,1,1,Chest_15_14)
+TileMap(24,0,17,1,1,Chest_0_17)
+TileMap(25,11,12,1,1,Wall_Broken_11_12)
+TileMap(26,8,3,1,4,Wall_Moves_8_3)
+TileMap(27,11,3,1,1,Wall_Broken_11_3)
 TileMapEnd
 
-Chest_15,1:
-SHORT 0x1d4 
-ALIGN 4
-
-Chest_8,7:
-SHORT 0x1d4 
-ALIGN 4
-
-Chest_8,19:
-SHORT 0x1d4 
-ALIGN 4
-
-Chest_15,14:
-SHORT 0x1d4 
-ALIGN 4
-
-Chest_0,17:
-SHORT 
-ALIGN 4
-
-Door_17,1:
+Door_17_1:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Door_2,2:
+Door_2_2:
 SHORT 0x28 
 ALIGN 4
 
-Door_7,4:
+Door_7_4:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Door_14,4:
+Door_14_4:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Door_10,6:
+Door_10_6:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Door_17,6:
+Door_17_6:
 SHORT 0x28 
 ALIGN 4
 
-Door_14,7:
+Door_14_7:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Door_6,8:
+Door_6_8:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Door_18,9:
+Door_18_9:
 SHORT 0x28 
 ALIGN 4
 
-Door_8,10:
+Door_8_10:
 SHORT 0x28 
 ALIGN 4
 
-Door_14,10:
+Door_14_10:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Door_4,11:
+Door_4_11:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Door_17,13:
+Door_17_13:
 SHORT 0x28 
 ALIGN 4
 
-Door_19,14:
+Door_19_14:
 SHORT 0x28 
 ALIGN 4
 
-Door_2,15:
+Door_2_15:
 SHORT 0x28 
 ALIGN 4
 
-Door_10,15:
+Door_10_15:
 SHORT 0x28 
 ALIGN 4
 
-Door_18,15:
+Door_18_15:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Door_4,18:
+Door_4_18:
 SHORT 0x558 0x28 
 ALIGN 4
 
-Door_14,18:
+Door_14_18:
 SHORT 0x28 0x28 
 ALIGN 4
 
-Wall_Broken_11,12:
+Chest_15_1:
+SHORT 0x1d4 
+ALIGN 4
+
+Chest_8_7:
+SHORT 0x1d4 
+ALIGN 4
+
+Chest_8_19:
+SHORT 0x1d4 
+ALIGN 4
+
+Chest_15_14:
+SHORT 0x1d4 
+ALIGN 4
+
+Chest_0_17:
+SHORT 0x1d4 
+ALIGN 4
+
+Wall_Broken_11_12:
 SHORT 0x28 
 ALIGN 4
 
-Wall_Moves_8,3:
+Wall_Moves_8_3:
 SHORT 0x558 0x28 0x28 0xa8 
 ALIGN 4
 
-Wall_Broken_11,3:
-SHORT 
+Wall_Broken_11_3:
+SHORT 0x28 
 ALIGN 4
 

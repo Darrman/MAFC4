@@ -4,11 +4,11 @@ IslesObjects:
 
 ALIGN 4
 IslesTiles:
-#incext compress "Tileset/Isles.mapchip_config"
+#incext compress "Isles.mapchip_config"
 
 ALIGN 4
 IslesPalette:
-#incbin "Tileset/SnowPalette.dmp"
+#incbin "IslesPalette.dmp"
 
 EventPointerTable(0x91, IslesObjects)
 EventPointerTable(0x92, IslesPalette)
