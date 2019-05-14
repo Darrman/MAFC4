@@ -8,6 +8,11 @@ Map:
 #incbin "MAFC_data.dmp"
 
 MapChanges:
+TileMap(20,15,1,1,1,Chest_15,1)
+TileMap(21,8,7,1,1,Chest_8,7)
+TileMap(22,8,19,1,1,Chest_8,19)
+TileMap(23,15,14,1,1,Chest_15,14)
+TileMap(24,0,17,1,1,Chest_0,17)
 TileMap(1,17,1,1,2,Door_17,1)
 TileMap(2,2,2,1,1,Door_2,2)
 TileMap(3,7,4,1,2,Door_7,4)
@@ -27,7 +32,30 @@ TileMap(16,10,15,1,1,Door_10,15)
 TileMap(17,18,15,1,2,Door_18,15)
 TileMap(18,4,18,1,2,Door_4,18)
 TileMap(19,14,18,1,2,Door_14,18)
+TileMap(25,11,12,1,1,Wall_Broken_11,12)
+TileMap(26,8,3,1,4,Wall_Moves_8,3)
+TileMap(27,11,3,1,1,Wall_Broken_11,3)
 TileMapEnd
+
+Chest_15,1:
+SHORT 0x1d4 
+ALIGN 4
+
+Chest_8,7:
+SHORT 0x1d4 
+ALIGN 4
+
+Chest_8,19:
+SHORT 0x1d4 
+ALIGN 4
+
+Chest_15,14:
+SHORT 0x1d4 
+ALIGN 4
+
+Chest_0,17:
+SHORT 
+ALIGN 4
 
 Door_17,1:
 SHORT 0x28 0x28 
@@ -103,5 +131,17 @@ ALIGN 4
 
 Door_14,18:
 SHORT 0x28 0x28 
+ALIGN 4
+
+Wall_Broken_11,12:
+SHORT 0x28 
+ALIGN 4
+
+Wall_Moves_8,3:
+SHORT 0x558 0x28 0x28 0xa8 
+ALIGN 4
+
+Wall_Broken_11,3:
+SHORT 
 ALIGN 4
 
