@@ -27,10 +27,36 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Door(17,1)
+Door(2,2)
+Door(7,4)
+Door(14,4)
+Door(10,6)
+Door(17,6)
+Door(14,7)
+Door(6,8)
+Door(18,9)
+Door(8,10)
+Door(14,10)
+Door(4,11)
+Door(17,13)
+Door(19,14)
+Door(2,15)
+Door(10,15)
+Door(18,15)
+Door(4,18)
+Door(14,18)
+Chest(IronSword,15,1) //chest contents all placeholder
+Chest(IronLance,8,7)
+Chest(IronAxe,8,19)
+Chest(IronBow,15,14)
+Chest(Fire,0,17)
+Vendor(MAFC4Shop,2,19)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno:
@@ -47,9 +73,16 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
+LOAD1 0x1 Units
+ENUN
+LOAD1 0x1 Bad
+ENUN
+LOAD1 0x1 Bad2
+ENUN
 ENDA
 
 EndingScene:
+MNTS 0x0
 ENDA
 
 // Events
@@ -88,5 +121,8 @@ UNIT
 
 
 // Shop Data
+MAFC4Shop:
+SHLI DoorKey ChestKey
+ALIGN 4
 
 MESSAGE Events end at offset currentOffset
