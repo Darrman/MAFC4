@@ -10,8 +10,8 @@ Void_Master:
 Dorkass_Fighter:
 	#incbin "./_palettes/Dorkass_Fighter.lzpal"
 
-Dorkass_Hero:
-	#incbin "./_palettes/Dorkass_Hero.lzpal"
+//Dorkass_Hero:
+//	#incbin "./_palettes/Dorkass_Hero.lzpal"
 
 Dorkass_Warrior:
 	#incbin "./_palettes/Dorkass_Warrior.lzpal"

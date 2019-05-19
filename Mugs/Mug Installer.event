@@ -6,7 +6,7 @@ setMugEntry(0x2, Void_Mug, 2, 5, 3, 3)
 
 Tim_Mug:
 #incext PortraitFormatter "Linus.png"
-setMugEntry(0x7, Tim_Mug, 2,4,2,3)
+setMugEntry(0x7, Tim_Mug, 2,4,2,2)
 
 Tam_Mug:
 #incext PortraitFormatter "Nergal.png"
