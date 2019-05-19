@@ -1,16 +1,16 @@
 #include "Tools/Tool Helpers.txt"
 
 Void_Mug:
-#incext PortraitFormatter "Void.png"
+#incext PortraitFormatter "Lloyd.png"
 setMugEntry(0x2, Void_Mug, 2, 5, 3, 3)
 
 Tim_Mug:
-#incext PortraitFormatter "Tim.png"
-setMugEntry(0x7, Tim_Mug, 2,5,2,3)
+#incext PortraitFormatter "Linus.png"
+setMugEntry(0x7, Tim_Mug, 2,4,2,3)
 
 Tam_Mug:
-#incext PortraitFormatter "Tam.png"
-setMugEntry(0x5, Tam_Mug, 2,5,2,3)
+#incext PortraitFormatter "Nergal.png"
+setMugEntry(0x6C, Tam_Mug, 2,5,2,3)
 
 Bede_Mug:
 #incext PortraitFormatter "Bede.png"

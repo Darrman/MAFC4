@@ -1,18 +1,14 @@
 ## VoidDeath
 [OpenMidRight][LoadVoid]
-But this... this can't be.[N]
-Leeroy...[A][CloseEyes][X]
+Urgh...[A][CloseEyes][X]
 
 ## LeeroyDeath
 [OpenMidRight][LoadLeeroy]
-Ah... with this wound... Forgive[N]
-me, your highness.[AN]
-I must retreat.[A][X]
+Uh...[A][X]
 
 ## TimDeath
 [OpenMidRight][LoadTim]
-Why me...[N]
-Tam, live on brother...[A][CloseEyes][X]
+Urrg... rr...[A][CloseEyes][X]
 
 ## TimDeathifTamDead
 [OpenMidRight][LoadTim]

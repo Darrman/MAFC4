@@ -1,15 +1,16 @@
 ##Name_Void
-Void[X]
+Lloyd[X]
 
 ##Desc_Void
-knoll much[X]
+The White Wolf of the Four Fangs.[N]
+Brendan's first son.[X]
 
 ##Name_Tim
-Tim[X]
+Linus[X]
 
 ##Desc_Tim
-His friends call[N]
-him Timathan.[X]
+The Rabid Hound of the Four Fangs.[N]
+Brendan's young son.[X]
 
 ##Name_Tam
 Tam[X]

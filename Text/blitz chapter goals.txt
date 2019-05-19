@@ -1,6 +1,6 @@
 #0x1a2 PrologueGoal
-Slay all in your way[N]
-and seize the gate[X]
+Navigate the door maze
+and kill the boss[X]
 
 ## Ch1Goal
 Get the kid to the[N]
@@ -120,7 +120,3 @@ go seize the gate[X]
 #0x1B8 Ch29Goal
 Defeat the Beatles in[N]
 combat, then kill Lyon[X]
-
-## Ch30Goal
-Kill the Demon King, the[N]
-source of this mess[X]
