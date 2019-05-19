@@ -94,4 +94,4 @@ NewStatScreenPal:
 RemoveGlowy:
 #incext Png2Dmp "RemoveGlowy.png" --lz77
 
-#include "LanceVoidPromo.event"
+#include "Master Animation Installer.event"
