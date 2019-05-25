@@ -29,7 +29,8 @@ END_MAIN
 LocationBasedEvents:
 Door(17,1)
 Door(2,2)
-Door(7,4)
+//Door(7,4)
+DOOR 0x00 WallMove [7,4] 0x12
 Door(14,4)
 Door(10,6)
 Door(17,6)
@@ -46,6 +47,7 @@ Door(10,15)
 Door(18,15)
 Door(4,18)
 Door(14,18)
+Door(0,12)
 Chest(IronSword,15,1) //chest contents all placeholder
 Chest(IronLance,8,7)
 Chest(IronAxe,8,19)
@@ -86,6 +88,14 @@ MNTS 0x0
 ENDA
 
 // Events
+
+WallMove:
+TILECHANGE 0x3
+STAL 30
+//shake
+TILECHANGE 0x1A
+//comment on wall movement
+ENDA
 
 // Manual Movement
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="29" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="30" nextobjectid="1">
  <tileset firstgid="1" name="FE6 - Frontier Village - 3e003f40" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="../../../Tools/FEMapCreator/Tilesets/FE6 - Frontier Village - 3e003f40.png" width="512" height="512"/>
  </tileset>
@@ -15,7 +15,7 @@
    <property name="TileConfig" value="0x93"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJytVMENwjAMTP3Nu4zCHryYhGQaYAxYhUdWYINIxKIWqeU4TsvDSiy75zvbqXfOeWZxWvvv4kM5TyDHud/Da8XD4icWf5T4tZzn6WdPBZPXywY+hIv3Gb73C6xr1mbRl5Q412jBy0qca7TgxUULnrfi352ste69b+SQhQG9QeGcOvw1vVrvevOXNGuGeUcYm++WPKtenjdXO4z7TO+m9yal76Xdb/XkIPSEsKwzq/cjspnQvcWVz2+07xpXCTMLnDknrZ72j6kx/rFX2MvXzr0i+wDJ6E4/
+   eJyVVMERAiEMBL68z1J828K9rESoRq8MbeUetGAHzAjjMcJOSOIjA5nAJpsseGOMB4t29N/Fd2VdHR1HX8KbxcPhJ4g/S/xe1qv92YvBxHxZUU/DrfvFffc3N+bsTcMvMXHkqMHLTBw5avDiwaWuj+Jvhuba995PzjQLf/ANTM1JqJ/jy/VOmj/FmbN67uz0873YMT+nAw1fzI/nlk7DVc/t3UhvkrpPaX/WkxPRk4alnVmvjwgzaftZrTg/7Xw0tVKYmagZa+LycX9Mj6HVi/S/7IKutPr7AG+oT6E=
   </data>
  </layer>
  <layer id="2" name="Door 17_1" width="20" height="20" visible="0">
@@ -340,6 +340,18 @@
   </properties>
   <data encoding="base64" compression="zlib">
    eJxjYBgFuAD3QDtgFIyCUTAKBjEAAD7MAAw=
+  </data>
+ </layer>
+ <layer id="29" name="Door 0_12" width="20" height="20">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="28"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="0"/>
+   <property name="Y" value="12"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFXAPdAOGAUjGgAAIcAADA==
   </data>
  </layer>
 </map>
