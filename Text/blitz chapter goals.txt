@@ -1,5 +1,5 @@
 #0x1a2 PrologueGoal
-Navigate the door maze
+Navigate the door maze[N]
 and kill the boss[X]
 
 ## Ch1Goal

@@ -33,6 +33,7 @@ Door(2,2)
 DOOR 0x00 WallMove [7,4] 0x12
 Door(14,4)
 Door(10,6)
+Door(11,6) //right hand side of double door
 Door(17,6)
 Door(14,7)
 Door(6,8)
@@ -81,6 +82,23 @@ LOAD1 0x1 Bad
 ENUN
 LOAD1 0x1 Bad2
 ENUN
+CAM1 [10,15]
+FADU 10
+STAL 20
+FlashCursor(Void,60)
+STAL 60
+Text(Fort_Evening,MAFC4IntroStart)
+MOVE 10 Void [5,19] //move in front of door
+TILECHANGE 0x12
+STAL 30
+//door opening sound effect
+MOVE 10 Void [2,19] //move to the shop
+STAL 30
+Text(Inn,MAFC4IntroTutorial)
+MOVE 10 Void [8,19] //move back to starting position
+Text(0x1,MAFC4IntroEnd)
+ENDA
+
 ENDA
 
 EndingScene:

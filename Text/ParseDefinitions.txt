@@ -59,6 +59,9 @@
 [CurrentPortrait] = [0xFF][0xFF]
 
 [Load] = [LoadFace]
+[LoadLloyd] = [LoadFace][0x2][0x1]
+[LoadLinus] = [LoadFace][0x07][0x1]
+[LoadAnna] = [LoadFace][0x64][0x1]
 [LoadVoid] = [LoadFace][0x2][0x1]
 [LoadLeeroy] = [LoadFace][0x14][0x1]
 [LoadTim] = [LoadFace][0x07][0x1]

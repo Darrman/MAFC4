@@ -15,7 +15,7 @@
    <property name="TileConfig" value="0x93"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJyVVMERAiEMBL68z1J828K9rESoRq8MbeUetGAHzAjjMcJOSOIjA5nAJpsseGOMB4t29N/Fd2VdHR1HX8KbxcPhJ4g/S/xe1qv92YvBxHxZUU/DrfvFffc3N+bsTcMvMXHkqMHLTBw5avDiwaWuj+Jvhuba995PzjQLf/ANTM1JqJ/jy/VOmj/FmbN67uz0873YMT+nAw1fzI/nlk7DVc/t3UhvkrpPaX/WkxPRk4alnVmvjwgzaftZrTg/7Xw0tVKYmagZa+LycX9Mj6HVi/S/7IKutPr7AG+oT6E=
+   eJytVEEOAiEMBK6c16d49guefInwGvUZ+pU98AV/QCLEJcKktDXZQwNNYTrTFrwxxoNFO/rv4ruynh0dR1/Cm8XD5ieIP0v8VtaL/dmLwcR8WcGn4db94r77qxtz9qbRl5g4atTgZSaOGjV4cdNS13vxH4bW2tfeT840C3/oDQznJPDn9HK1k/pPaeasnjs6fX9PdszPzYFGL+bHc0s3w3We27uR3iR1n5r9WU0ORE0alrZn/XxE6Enbz7hi/7T90XClMDPBGTlx+bg/BnugqZ30v6w7zd8HHNdO/A==
   </data>
  </layer>
  <layer id="2" name="Door 17_1" width="20" height="20" visible="0">
@@ -222,7 +222,7 @@
    eJxjYBgFo2AUjIKRBbgHuXlDBQAAHwAAFw==
   </data>
  </layer>
- <layer id="19" name="Door 4_18" width="20" height="20" visible="0">
+ <layer id="19" name="Door 4_18" width="20" height="20">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="18"/>

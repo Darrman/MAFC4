@@ -1,3 +1,28 @@
+## MAFC4IntroStart
+[MidLeft][LoadLloyd]
+[MidRight][LoadLinus]
+This text is a placeholder![A][X]
+
+## MAFC4IntroTutorial
+[Right][LoadLloyd]
+[FarRight][LoadLinus]
+[MidLeft][LoadAnna]
+*Setting stuff here*[N]
+So this castle has a lot of[N]
+doors in it. If you want to[AN]
+get through, you'll need to[N]
+[Red]buy[Red] lots of keys.[AN]
+Fortunately for you, I sell[N]
+these keys. They aren't cheap,[AN]
+though. 50 gold a key. Mind you,[N]
+I hear the security around here[AN]
+keep some gold in their wallets.[N]
+Aren't you two assassins? You'll[AN]
+know how to deal with that problem.[A][X]
+
+## MAFC4IntroEnd
+This text is a placeholder![A][X]
+
 ## Ch0IntroTalk
 [MidLeft][LoadFace][0x2][0x1]
 The Demon King killed my family[N]
