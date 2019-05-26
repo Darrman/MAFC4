@@ -32,6 +32,20 @@
     POP
 
     PUSH
+	//magic seal weirdness
+	ORG $18CE2
+	BYTE 03
+	ORG $18CF0
+	BYTE 03
+	ORG $1A03E
+	BYTE 03
+	ORG $1A108
+	BYTE 03
+	ORG $1B982
+	BYTE 03
+    POP
+
+    PUSH
         ORG $99e64
         POIN NewPrepScreenShopList
 
