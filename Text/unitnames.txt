@@ -334,15 +334,18 @@ female thief... in days gone by.[X]
 Anna[X]
 
 ## GenericName
-Donatenry[X]
+Black Fang[X]
 
 ## GenericDesc
-A soldier of the Donateenaries, who[N]
-seek the revival of the Demon King.[X]
+Members of the Black Fang. Their[N]
+loyalty lies only with Nergal.[X]
+
+## NergalName
+Nergal[X]
 
 ## ONeillDesc
-The commander of the mysterious[N]
-force that killed Void's family.[X]
+An avaricious fiend who turns death[N]
+into power. (EXTRA STUFF HERE)[X]
 
 ## BoneDesc
 Ruler of the Bone Hole. A shaman[N]

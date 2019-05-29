@@ -2819,6 +2819,10 @@ TxtData0xb7e:
 #incext ParseFile "_textentries\0xb7e.txt"
 setText(0xb7e,TxtData0xb7e)
 
+TxtData0xb7f:
+#incext ParseFile "_textentries\0xb7f.txt"
+setText(0xb7f,TxtData0xb7f)
+
 TxtData0x1a2:
 #incext ParseFile "_textentries\0x1a2.txt"
 setText(0x1a2,TxtData0x1a2)
