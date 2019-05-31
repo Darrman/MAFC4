@@ -83,6 +83,7 @@ ENUN
 LOAD1 0x1 Bad2
 ENUN
 CAM1 [10,15]
+MUSC Tension
 FADU 10
 STAL 20
 FlashCursor(Void,60)
@@ -98,10 +99,11 @@ MOVE 10 Void [2,19] //move to the shop
 STAL 30
 Text(Inn,MAFC4IntroTutorial)
 MOVE 10 Void [8,19] //move back to starting position
-Text(0x1,MAFC4IntroEnd)
+REMA
+Text(MAFC4IntroEnd)
+NoFade
 ENDA
 
-ENDA
 
 EndingScene:
 MNTS 0x0
