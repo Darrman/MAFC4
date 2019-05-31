@@ -15,8 +15,8 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 Units:
-UNIT Eirika Swordmaster 0x00 Level(1, Ally, 0) [8,19] 0x00 0x00 0x0 0x00 [SilverSword, DoorKey] NoAI 
-UNIT Seth Hero 0x00 Level(1, Ally, 0) [12,19] 0x00 0x00 0x0 0x00 [SilverAxe, DoorKey] NoAI 
+UNIT Eirika Swordmaster 0x00 Level(1, Ally, 0) [8,19] 0x00 0x00 0x0 0x00 [SilverSword, Vulnerary, DoorKey] NoAI 
+UNIT Seth Hero 0x00 Level(1, Ally, 0) [12,19] 0x00 0x00 0x0 0x00 [SilverAxe, Vulnerary, DoorKey] NoAI 
 UNIT
 
 
@@ -49,11 +49,11 @@ Door(18,15)
 Door(4,18)
 Door(14,18)
 Door(0,12)
-Chest(IronSword,15,1) //chest contents all placeholder
-Chest(IronLance,8,7)
-Chest(IronAxe,8,19)
-Chest(IronBow,15,14)
-Chest(Fire,0,17)
+Chest(LightBrand,15,1)
+Chest(Thunder,8,7)
+Chest(HoplonShield,8,19)
+Chest(Swordreaver,15,14)
+Chest(HandAxe,0,17)
 Vendor(MAFC4Shop,2,19)
 END_MAIN
 
@@ -131,9 +131,9 @@ UNIT 0x80 Mage 0x00 Level(10, Enemy, 1) [14,15] 0x2 0x00 0x0 0x00 [Thunder, Item
 UNIT 0x80 Mage 0x00 Level(10, Enemy, 1) [17,18] 0x2 0x00 0x0 0x00 [Thunder, Item50G] AttackInRangeAI 
 UNIT 0x80 Sage 0x00 Level(10, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [Bolting] PursueWithoutHeedAI 
 UNIT 0x80 General 0x00 Level(1, Enemy, 1) [0,4] 0x00 0x00 0x0 0x00 [SilverAxe] GuardTileAI 
-UNIT 0x80 Brigand 0x00 Level(1, Enemy, 1) [10,17] 0x2 0x00 0x0 0x00 [IronAxe, Item100G] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary 0x00 Level(1, Enemy, 1) [13,9] 0x2 0x00 0x0 0x00 [SteelSword, Item50G] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary 0x00 Level(1, Enemy, 1) [1,13] 0x2 0x00 0x0 0x00 [SteelSword, Item50G] PursueWithoutHeedAI 
+UNIT 0x80 Brigand 0x00 Level(10, Enemy, 1) [10,17] 0x2 0x00 0x0 0x00 [IronAxe, Item100G] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary 0x00 Level(10, Enemy, 1) [13,9] 0x2 0x00 0x0 0x00 [SteelSword, Item50G] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary 0x00 Level(10, Enemy, 1) [1,13] 0x2 0x00 0x0 0x00 [SteelSword, Item50G] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary 0x00 Level(10, Enemy, 1) [8,7] 0x2 0x00 0x0 0x00 [SteelSword, Item50G] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary 0x00 Level(10, Enemy, 1) [17,7] 0x2 0x00 0x0 0x00 [SteelSword, Item50G] PursueWithoutHeedAI 
 UNIT 0x80 Soldier 0x00 Level(10, Enemy, 1) [19,13] 0x2 0x00 0x0 0x00 [SteelLance, Item50G] PursueWithoutHeedAI 

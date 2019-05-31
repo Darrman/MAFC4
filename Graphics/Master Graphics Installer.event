@@ -8,6 +8,9 @@ PUSH
   ORG $8AEFFC
   BYTE 1 //same for promo
 
+  ORG $8AF548
+  BYTE 0 //make nergal use his "sword"
+
   ORG $c5830
   POIN NewTitleScroll
 
