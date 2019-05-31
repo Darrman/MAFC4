@@ -10,15 +10,15 @@ setMugEntry(0x7, Tim_Mug, 2,4,2,2)
 
 Tam_Mug:
 #incext PortraitFormatter "Nergal.png"
-setMugEntry(0x6C, Tam_Mug, 3,4,2,3)
+setMugEntry(0x6C, Tam_Mug, 3,4,3,2)
 
 Bede_Mug:
-#incext PortraitFormatter "Bede.png"
-setMugEntry(0x9, Bede_Mug, 3,5,3,3)
+#incext PortraitFormatter "Nino.png"
+setMugEntry(0x9, Bede_Mug, 2,6,3,4)
 
 NotArch_Mug:
-#incext PortraitFormatter "NotArch.png"
-setMugEntry(0xc, NotArch_Mug, 3,5,3,3)
+#incext PortraitFormatter "Self-Insert.png"
+setMugEntry(0xc, NotArch_Mug, 4,6,4,4)
 
 Kirsten_Mug:
 #incext PortraitFormatter "Kirsten.png"

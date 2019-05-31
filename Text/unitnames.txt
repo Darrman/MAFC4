@@ -13,11 +13,11 @@ The Rabid Hound of the Four Fangs.[N]
 Brendan's young son.[X]
 
 ##Name_Tam
-Tam[X]
+Nino[X]
 
 ##Desc_Tam
-Secretly wishes he[N]
-was a necromancer.[X]
+One of the Black Fang.[N]
+True and innocent.[X]
 
 ##Name_Jerome
 Jerome[X]
@@ -344,8 +344,8 @@ loyalty lies only with Nergal.[X]
 Nergal[X]
 
 ## ONeillDesc
-An avaricious fiend who turns death[N]
-into power. (EXTRA STUFF HERE)[X]
+An avaricious fiend who[N]
+turns death into power.[X]
 
 ## BoneDesc
 Ruler of the Bone Hole. A shaman[N]

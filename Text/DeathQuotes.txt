@@ -16,8 +16,8 @@ Why me... Tam, I'm coming...[A][CloseEyes][X]
 
 ## TamDeath
 [OpenMidRight][LoadTam]
-No...[N]
-Forgive me, Anna...[A][CloseEyes][X]
+Am I...[N]
+Am I going to die?[A][CloseEyes][X]
 
 ## JeromeDeath
 [OpenMidRight][LoadJerome]
@@ -164,15 +164,28 @@ alone anymore...[A][CloseEyes][X]
 for... seeking revengeance...[A][CloseEyes][X]
 
 ## ONeillCombat
-[OpenMidLeft][Load][0x30][0x01]
-Who the hell are you?! Aren't[N]
-you supposed to be dead?![AN]
-You shall have the honour of[N]
-dying to the name of O'Neill![A][X]
+[OpenMidLeft][LoadNergal]
+So, you've come. Come to take[N]
+back your quintessence.[AN]
+Take revenge for manipulating[N]
+your organisation for evil.[AN]
+Right all of your wrongs.[N]
+But it's futile. I have a[AN]
+magical barrier protecting[N]
+me. Your weapon cannot touch[AN]
+me. Fang, you are to be a[N]
+witness to a power that will[AN]
+overwhelm you! Ha ha ha...[N]
+No lordling can stop me.[A][X]
 
 ## ONeillDeath
-[OpenMidLeft][Load][0x30][0x01]
-Master Zonta, forgive me...[A][X]
+[OpenMidLeft][LoadNergal]
+Why? Why must I lose? I have[N]
+the power of dragons...[AN]
+Why did I... want power?[N]
+...Quintessence? ...No...[AN]
+Aenir... ...Don't... understand...[N]
+I... will die like this. Aenir...[A][X]
 
 ## BoneCombat
 [OpenMidLeft][Load][0x32][0x01]

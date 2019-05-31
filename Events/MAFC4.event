@@ -113,6 +113,9 @@ ENDA
 
 
 EndingScene:
+Text(Castle_Outside,MAFC4Ending)
+FADI 10
+Text(Outside_Village_Day,MAFC4Credits)
 MNTS 0x0
 ENDA
 
@@ -175,7 +178,7 @@ DoesHerBest:
 TILECHANGE 1
 STAL 30
 LOAD1 0x1 NinoUnit
-//Text(MAFC4RecruitingNino)
+Text(MAFC4RecruitingNino)
 ENDA
 
 // Manual Movement
@@ -211,7 +214,7 @@ UNIT 0x80 Archer 0x00 Level(1, Enemy, 1) [12,5] 0x2 0x00 0x0 0x00 [SteelBow, Ite
 UNIT
 
 NinoUnit:
-UNIT Gilliam Mage_F 0x00 Level(10, Player, 0) [15,1] 0x00 0x00 0x0 0x00 [Fire, ChestKey, DoorKey, DoorKey] NoAI
+UNIT Gilliam Mage_F 0x00 Level(10, Ally, 0) [15,1] 0x00 0x00 0x0 0x00 [Fire, ChestKey, DoorKey, DoorKey] NoAI
 UNIT
 
 // Shop Data
