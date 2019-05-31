@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="30" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="33" nextobjectid="1">
  <tileset firstgid="1" name="FE6 - Frontier Village - 3e003f40" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="../../../Tools/FEMapCreator/Tilesets/FE6 - Frontier Village - 3e003f40.png" width="512" height="512"/>
  </tileset>
@@ -15,7 +15,7 @@
    <property name="TileConfig" value="0x93"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJytVEEOAiEMBK6c16d49guefInwGvUZ+pU98AV/QCLEJcKktDXZQwNNYTrTFrwxxoNFO/rv4ruynh0dR1/Cm8XD5ieIP0v8VtaL/dmLwcR8WcGn4db94r77qxtz9qbRl5g4atTgZSaOGjV4cdNS13vxH4bW2tfeT840C3/oDQznJPDn9HK1k/pPaeasnjs6fX9PdszPzYFGL+bHc0s3w3We27uR3iR1n5r9WU0ORE0alrZn/XxE6Enbz7hi/7T90XClMDPBGTlx+bg/BnugqZ30v6w7zd8HHNdO/A==
+   eJytVEEOAiEMhF45r0/x7Bc8+RLhNeoz9Ct74Av+gESIS4RJKTXZQ0ObstOZtoszxjiwYPv4nWPK55n4PMYzvFHeb3GE/DPnb/m82J+9BEyslxR8Km7xF/r6V+prtqbRF4U8atTgJSGPGjV4YdNSznuOH4bX2vbeDe5U83/o9QLnOOEv6ZV6N5s/p1mycu9I+vmebF9f2gONXqyP95Zmh8s+1/9m9k9y33O7P+rJgelJxdLOrN2PADOp/ogrzk87nxFX0/gcZmI4IyepnvTG4Aw0vZu9L+tO+/cBEeZO8g==
   </data>
  </layer>
  <layer id="2" name="Door 17_1" width="20" height="20" visible="0">
@@ -255,7 +255,7 @@
    <property name="Y" value="1"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBg8oGygHTAKRsEoGAWjgGgAAKdWAHc=
+   eJxjYBg8IGygHTAKRsEoGAWjgGgAAPDHAFc=
   </data>
  </layer>
  <layer id="25" name="Chest 8_7" width="20" height="20" visible="0">
@@ -267,7 +267,7 @@
    <property name="Y" value="7"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B6oGygHTAKRsEooBsAANbvAHc=
+   eJxjYBgFo4B6IGygHTAKRsEooBsAAFjvAFc=
   </data>
  </layer>
  <layer id="26" name="Chest 8_19" width="20" height="20" visible="0">
@@ -279,10 +279,10 @@
    <property name="Y" value="19"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BgQNlAO2AUjIJRQBEAAMKnAHc=
+   eJxjYBgFo2BgQNhAO2AUjIJRQBEAAEonAFc=
   </data>
  </layer>
- <layer id="27" name="Chest 15_14" width="20" height="20">
+ <layer id="27" name="Chest 15_14" width="20" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="23"/>
@@ -291,7 +291,7 @@
    <property name="Y" value="14"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILBB8oG2gGjgCAAAMfYAHc=
+   eJxjYBgFo2AUjILBB8IG2gGjgCAAAJNYAFc=
   </data>
  </layer>
  <layer id="28" name="Chest 0_17" width="20" height="20">
@@ -303,7 +303,7 @@
    <property name="Y" value="17"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRQA1QNtAOoDMAAHTgAHc=
+   eJxjYBgFo2AUjIJRQA0QNtAOoDMAAFbgAFc=
   </data>
  </layer>
  <layer id="21" name="Wall Broken 11_12" width="20" height="20">
@@ -352,6 +352,35 @@
   </properties>
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUDFXAPdAOGAUjGgAAIcAADA==
+  </data>
+ </layer>
+ <layer id="30" name="Peak Spawn 11_13" width="20" height="20">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="29"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="11"/>
+   <property name="Y" value="13"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALSASfzQLtgFAw0AAAebQAN
+  </data>
+ </layer>
+ <layer id="31" name="Tree Spawn 10_7" width="20" height="20">
+  <properties>
+   <property name="Height" value="2"/>
+   <property name="ID" value="30"/>
+   <property name="Width" value="2"/>
+   <property name="X" value="10"/>
+   <property name="Y" value="7"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4D6gI+ZgUGXmXrm8QLN0qeieaNgFIwCygEA79MAhA==
+  </data>
+ </layer>
+ <layer id="32" name="Shortcut 2_18" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMJgB90A7AAcAAAzIAAw=
   </data>
  </layer>
 </map>
