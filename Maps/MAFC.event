@@ -38,7 +38,7 @@ TileMap(27,11,3,1,1,Wall_Broken_11_3)
 TileMap(28,0,12,1,1,Door_0_12)
 TileMap(29,11,13,1,1,Peak_Spawn_11_13)
 TileMap(30,10,7,2,2,Tree_Spawn_10_7)
-TileMap(30,10,7,2,2,Shortcut_2_18)
+TileMap(31,2,18,1,1,Shortcut_2_18)
 TileMapEnd
 
 Door_17_1:

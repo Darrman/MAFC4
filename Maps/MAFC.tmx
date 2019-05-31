@@ -379,6 +379,13 @@
   </data>
  </layer>
  <layer id="32" name="Shortcut 2_18" width="20" height="20">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="31"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="2"/>
+   <property name="Y" value="18"/>
+  </properties>
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRMJgB90A7AAcAAAzIAAw=
   </data>

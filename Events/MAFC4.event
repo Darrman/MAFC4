@@ -27,7 +27,8 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Door(17,1)
+//Door(17,1) Top right chest
+DOOR 0x00 DoesHerBest [17,1] 0x12
 Door(2,2)
 //Door(7,4)
 DOOR 0x00 WallMove [7,4] 0x12
@@ -35,19 +36,25 @@ Door(14,4)
 Door(10,6)
 Door(11,6) //right hand side of double door
 Door(17,6)
-Door(14,7)
-Door(6,8)
+//Door(14,7) //top right of centre room
+DOOR 0x00 ShopShortcut [14,7] 0x12
+//Door(6,8) second door in fake boss approach
+DOOR 0x00 ClearFog [6,8] 0x12
 Door(18,9)
 Door(8,10)
-Door(14,10)
+//Door(14,10) //bottom right of centre room
+DOOR 0x00 RemovePeak [14,10] 0x12
 Door(4,11)
 Door(17,13)
 Door(19,14)
-Door(2,15)
-Door(10,15)
+//Door(2,15) Left-hand path
+DOOR 0x00 Forestation [2,15] 0x12
+//Door(10,15) Front door
+DOOR 0x00 FrontDoor [10,15] 0x12
 Door(18,15)
 Door(4,18)
-Door(14,18)
+//Door(14,18) side entrance
+DOOR 0x00 SideDoor [14,18] 0x12
 Door(0,12)
 Chest(LightBrand,15,1)
 Chest(Thunder,8,7)
@@ -114,9 +121,61 @@ ENDA
 WallMove:
 TILECHANGE 0x3
 STAL 30
-//shake
+EARTHQUAKE_START 120
+EARTHQUAKE_END
 TILECHANGE 0x1A
 //comment on wall movement
+NoFade
+ENDA
+
+
+FrontDoor:
+TILECHANGE 16
+//SOUN 0x00B1
+STAL 30
+TILECHANGE 29
+//comment on big mountain
+NoFade
+ENDA
+
+RemovePeak:
+TILECHANGE 11
+STAL 30
+TILEREVERSE 29
+ENDA
+
+ShopShortcut:
+TILECHANGE 11
+STAL 30
+CAM1 [7,15] //bottom left corner of map
+REMA
+TILECHANGE 31
+ENDA
+
+SideDoor:
+TILECHANGE 19
+STAL 15
+VCWF 4
+ENDA
+
+ClearFog:
+TILECHANGE 8
+STAL 15
+VCWF 0
+ENDA
+
+Forestation:
+TILECHANGE 15
+STAL 30
+TILECHANGE 30
+ENDA
+
+
+DoesHerBest:
+TILECHANGE 1
+STAL 30
+LOAD1 0x1 NinoUnit
+//Text(MAFC4RecruitingNino)
 ENDA
 
 // Manual Movement
@@ -151,6 +210,9 @@ UNIT 0x80 Archer 0x00 Level(1, Enemy, 1) [7,9] 0x2 0x00 0x0 0x00 [SteelBow, Item
 UNIT 0x80 Archer 0x00 Level(1, Enemy, 1) [12,5] 0x2 0x00 0x0 0x00 [SteelBow, Item50G] PursueWithoutHeedAI 
 UNIT
 
+NinoUnit:
+UNIT Gilliam Mage_F 0x00 Level(10, Player, 0) [15,1] 0x00 0x00 0x0 0x00 [Fire, ChestKey, DoorKey, DoorKey] NoAI
+UNIT
 
 // Shop Data
 MAFC4Shop:
