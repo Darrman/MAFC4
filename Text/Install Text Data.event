@@ -2823,6 +2823,10 @@ TxtData0xb7f:
 #incext ParseFile "_textentries\0xb7f.txt"
 setText(0xb7f,TxtData0xb7f)
 
+TxtData0xb80:
+#incext ParseFile "_textentries\0xb80.txt"
+setText(0xb80,TxtData0xb80)
+
 TxtData0x1a2:
 #incext ParseFile "_textentries\0x1a2.txt"
 setText(0x1a2,TxtData0x1a2)

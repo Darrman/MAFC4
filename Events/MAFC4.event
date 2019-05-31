@@ -89,9 +89,11 @@ FlashCursor(Void,60)
 STAL 60
 Text(Fort_Evening,MAFC4IntroStart)
 MOVE 10 Void [5,19] //move in front of door
-TILECHANGE 0x12
+REMA
 STAL 30
+TILECHANGE 0x12
 //door opening sound effect
+CAM1 Void
 MOVE 10 Void [2,19] //move to the shop
 STAL 30
 Text(Inn,MAFC4IntroTutorial)

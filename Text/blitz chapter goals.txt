@@ -1,6 +1,6 @@
 #0x1a2 PrologueGoal
-Navigate the door maze[N]
-and kill the boss[X]
+Navigate the door[N]
+maze and kill Nergal[X]
 
 ## Ch1Goal
 Get the kid to the[N]
