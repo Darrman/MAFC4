@@ -29,7 +29,7 @@ TileMap(18,4,18,1,2,Door_4_18)
 TileMap(19,14,18,1,2,Door_14_18)
 TileMap(20,15,1,1,1,Chest_15_1)
 TileMap(21,8,7,1,1,Chest_8_7)
-TileMap(22,8,19,1,1,Chest_8_19)
+TileMap(22,19,7,1,1,Chest_19_7)
 TileMap(23,15,14,1,1,Chest_15_14)
 TileMap(24,0,17,1,1,Chest_0_17)
 TileMap(25,11,12,1,1,Wall_Broken_11_12)
@@ -125,7 +125,7 @@ Chest_8_7:
 SHORT 0x154 
 ALIGN 4
 
-Chest_8_19:
+Chest_19_7:
 SHORT 0x154 
 ALIGN 4
 
